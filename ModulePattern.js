@@ -1,9 +1,9 @@
 var module = (function() {
-  var _this = this;
 
   var _privateVariable = '';
 
   var _privateMethod = function() {
+    var _this = this;
     // private method def
     // can use _this._privateVariable
     console.log('Inside a private method!');
@@ -11,6 +11,7 @@ var module = (function() {
 
   return {
     publicMethod: function() {
+      var _this = this;
       // public method def
       // can use _this._privateVariable
       // can call _privateMethod();
