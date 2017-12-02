@@ -1,5 +1,4 @@
 var module = (function() {
-
   var _privateVariable = '';
 
   var _privateMethod = function() {
